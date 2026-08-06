@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ece5f0;
+  --color-secondary: #003b36;
+  --color-tertiary: #012622;
+  --color-accent: #e98a15;
+  --color-prime-1: #bfbbc1;
+
+
+
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+@layer components {
+  .h1-text {
+    @apply text-4xl font-semibold uppercase max-md:text-left text-secondary sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl;
+  }
+
+  .h2-text {
+    @apply text-4xl font-semibold uppercase max-md:text-left text-secondary sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl;
+  }
+
+  .service-content-text{
+    @apply font-semibold tracking-normal max-xl:text-lg max-lg:text-sm
+  }
+}
+
+
+@theme {
+
+
+  --animate-marquee: marquee 20s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 20s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0)
+    }
+    100% {
+      transform: translateX(calc(-50% - 1rem))
+    }
+  }
+  @keyframes marquee-reverse {
+    100% {
+      transform: translateX(0)
+    }
+    0% {
+      transform: translateX(calc(-50% - 1rem))
+    }
+  }
+
+
+}
