@@ -10,7 +10,7 @@ const Testimonials = () => {
   console.log(testimonials);
 
   return (
-    <div className="h-fit pt-32 mx-4 ">
+    <div className="h-auto pt-32 mx-4 ">
       <h2 className="h2-text mb-8">Our Clients Words...</h2>
     <div className="overflow-hidden h-auto space-y-8">
       <div className="w-max flex gap-8 justify-center items-center animate-marquee hover:[animation-play-state:paused] transition-all ease-in-out">
