@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
-    <div className="flex items-center mx-4 mt-8 h-[125vh] justify-start bg-primary max-lg:h-[140vh] max-lg:mt-0 max-sm:h-[180vh]">
+    <div className="flex items-center mx-4 mt-8 h-auto justify-start bg-primary">
       <div className="flex w-full h-fit max-w-400 max-lg:flex-col">
         <div className="mb-4 w-1/3 h-full max-lg:w-full">
           <h1 className="h2-text">
