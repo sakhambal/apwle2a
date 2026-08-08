@@ -26,7 +26,7 @@ const Hero = () => {
           </div>
         </div>
         {/**right side */}
-        <div className="overflow-hidden w-1/2  h-auto max-h-220 max-md:w-full max-md:h-[80vh] max-lg:h-auto ">
+        <div className="overflow-hidden w-1/2  h-auto max-h-220 max-md:w-full ">
           <div className="flex flex-col justify-between items-center px-2 h-full text-right max-md:p-0">
             <h1 className="h1-text">
               Turning Financial Complexity <br /> into Business Opportunties
