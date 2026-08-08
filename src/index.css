@@ -16,11 +16,8 @@ body {
 }
 
 @layer components {
-  .h1-test {
-    @apply font-semibold text-center text-tertiary leading-loose;
-    font-size: clamp(2.5rem, 4vw, 5rem);
-    line-height: 0.95;
-    letter-spacing: -0.04em;
+   .h1-text {
+    @apply text-4xl font-semibold uppercase max-md:text-left text-secondary sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl;
   }
 
   .h2-text {
