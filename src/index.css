@@ -16,8 +16,11 @@ body {
 }
 
 @layer components {
-  .h1-text {
-    @apply text-4xl font-semibold uppercase max-md:text-left text-secondary sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl;
+  .h1-test {
+    @apply font-semibold text-center text-deep-blue leading-loose;
+    font-size: clamp(2.5rem, 4vw, 5rem);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
   }
 
   .h2-text {
